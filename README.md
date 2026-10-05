@@ -4,9 +4,11 @@ A browser tribute to Williams Electronics' 1981 arcade game **Defender**. It's b
 
 Fly over a wrap-around planet and shoot down alien Landers before they carry off the humanoids. If a Lander gets a humanoid to the top of the screen, it turns into a Mutant. If every humanoid is lost, the planet explodes.
 
-## Run it
+## Play it
 
-ES modules won't load from `file://`, so serve the folder over HTTP:
+**Online:** <https://wtrippe0909.github.io/defender-clone/>. Every push to `main` redeploys it through `.github/workflows/pages.yml`.
+
+**Locally:** ES modules won't load from `file://`, so serve the folder over HTTP:
 
 ```sh
 python3 -m http.server 8000
